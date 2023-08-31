@@ -3,35 +3,59 @@
 <head>
 	<title>Clock</title>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/a0ad88db9143083e90b4dd56f9048334?family=Anurati" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="analog_clock">
-        <div class="outer">
-            <div class="clock">
-                <div class="numbers">
-                    <span style="--i:0"><b id="n12">12</b></span>
-                    <span style="--i:1"><b>1</b></span>
-                    <span style="--i:2"><b>2</b></span>
-                    <span style="--i:3"><b>3</b></span>
-                    <span style="--i:4"><b>4</b></span>
-                    <span style="--i:5"><b>5</b></span>
-                    <span style="--i:6"><b>6</b></span>
-                    <span style="--i:7"><b>7</b></span>
-                    <span style="--i:8"><b>8</b></span>
-                    <span style="--i:9"><b>9</b></span>
-                    <span style="--i:10"><b>10</b></span>
-                    <span style="--i:11"><b>11</b></span>
-                </div>
-                <div class="pointer">
-                    <div class="dot">
-                        <div class="dot2"></div>
+        <div class="time">
+            <div class="outer_outer">
+            <div class="outer">
+                <div class="clock">
+                    <div class="numbers">
+                        <span style="--i:0"><b id="n12">12</b></span>
+                        <span style="--i:1"><b>1</b></span>
+                        <span style="--i:2"><b>2</b></span>
+                        <span style="--i:3"><b>3</b></span>
+                        <span style="--i:4"><b>4</b></span>
+                        <span style="--i:5"><b>5</b></span>
+                        <span style="--i:6"><b>6</b></span>
+                        <span style="--i:7"><b>7</b></span>
+                        <span style="--i:8"><b>8</b></span>
+                        <span style="--i:9"><b>9</b></span>
+                        <span style="--i:10"><b>10</b></span>
+                        <span style="--i:11"><b>11</b></span>
                     </div>
-                    <div class="com hr"></div>
-                    <div class="com min"></div>
-                    <div class="com sec"></div>
+                    <div class="pointer">
+                        <div class="dot">
+                            <div class="dot2"></div>
+                        </div>
+                        <div class="com hr"></div>
+                        <div class="com min"></div>
+                        <div class="com sec"></div>
+                    </div>
                 </div>
             </div>
+        </div>
+            <div class="text_info">
+                <div class="tt_time">
+                    <p class="th_time"></p>
+                    <p>:</p>
+                    <p class="tm_time"></p>
+                    <p>:</p>
+                    <p class="ts_time"></p>
+                </div>
+                <div class="hor">
+                    <div class="horm"></div>
+                </div>
+                <div class="day">
+                    <div class="tt_day"></div>
+                </div>
+                <div class="date">
+                    <div class="tt_date"></div>
+                    <div class="tt_mon"></div>
+                </div>
+            </div> 
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
