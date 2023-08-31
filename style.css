@@ -1,9 +1,9 @@
-
+@import url(https://db.onlinewebfonts.com/c/a0ad88db9143083e90b4dd56f9048334?family=Anurati);
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
-    height: 80vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     background:black;
@@ -15,7 +15,13 @@ body::before{
     background: linear-gradient(#08ff12,#0791ff);
     mix-blend-mode: multiply;
 }
+.analog_clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .outer{
+    margin-top: 10vh;
     top:0px;
     color: white;
     width:400px;
@@ -28,7 +34,11 @@ body::before{
     align-items: center;
     box-shadow: 0 0 50px #ffff
 }
-
+.outer_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .clock{
     position: relative;
     top:0px;
@@ -138,4 +148,58 @@ b{
     background-color: red;
     z-index: 6;
     border-radius: 100px;
+}
+
+.text_info{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 80px;
+    width: 100%;
+}
+
+.tt_time{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr 3px 1fr;
+    margin: 0px 0px;
+}
+p{
+    margin: 0px 0px;
+}
+.horm{
+    position: absolute;
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+.hor{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.day{
+    text-align: center;
+    height: 100px;
+    font-family: "Anurati";
+}
+.tt_day{
+    padding-left: 10px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-family: "Anurati";
+}
+.tt_date{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.tt_mon{
+    font-size: 40px;
+    padding-left: 20px;
 }
